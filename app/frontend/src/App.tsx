@@ -74,6 +74,7 @@ function App() {
                 </h1>
                 <div className="mb-4 flex flex-col items-center justify-center">
                     <Button
+                        id="enableEmo"
                         onClick={onToggleListening}
                         className={`h-12 w-60 ${isRecording ? "bg-red-600 hover:bg-red-700" : "bg-purple-500 hover:bg-purple-600"}`}
                         aria-label={isRecording ? t("app.stopRecording") : t("app.startRecording")}
